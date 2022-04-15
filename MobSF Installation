@@ -1,0 +1,40 @@
+Installation of MobSF
+
+++++Terminal_1+++++++++++
+#sudo su
+#sudo apt update
+#sudo apt install -y default-jdk
+#sudo java -version
+#sudo apt -y install python3-pip
+
+if any sub packages missed try below command
+
+# sudo apt –y install python3-pip - -fix-missing 
+
+
+
+
+++++++Terminal_2++++++++
+
+# sudo su
+# cd /usr/local/src
+# sudo apt-get install wkhtmltopdf
+# apt install git
+# git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+
+# ls
+
+#cd Mobile-Security-Framework-MobSF/
+# pip3 install virtualenv
+# virtualenv -p python3 venv
+# source venv/bin/activate
+# pip3 install -r requirements.txt
+
+if any sub packages missed try below command
+
+# pip3 install –r requirements.txt  - -fix-missing 
+# python3 manage.py migrate
+# more ./run.sh (Press return key until it reaches 100%)
+# ./run.sh
+
+
